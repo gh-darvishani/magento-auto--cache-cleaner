@@ -1,0 +1,20 @@
+{
+  "name": "darvishani/cache-cleaner",
+  "version": "1.0.0",
+  "description": "it clean magento invalidate cache",
+  "type": "magento2-module",
+  "author": "gh.darvishani@live.com" ,
+  "license": [
+    "MIT"
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Darvishani\\CacheCleaner\\": ""
+    }
+  }
+}

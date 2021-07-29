@@ -1,19 +1,19 @@
-#Magento Auto Clean Cache
+# Magento Auto Clean Cache
 
-##description
+## description
 This module help you to clean **Magento** invalidate cache
 
-##Instillation
+## Instillation
 `composer require darvishani/cache-cleaner`
 
-##How to use
+## How to use
 just install it and after that check your cron job. it all thing will be okay your invalidate cache dose not need to **Flush** Or **Clean**
 
 
-###config
+### config
 you can disable the actions by **disable** module, or you can put enable to **No**.
 
 store > configuration > Darvishani Extension > cache clear  
 
-###attention 
+### attention 
 this module just will clean invalidated cache
